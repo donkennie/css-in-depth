@@ -1,0 +1,30 @@
+/* Generic Styles */
+
+.wrapper {
+    padding: 3rem;
+    text-align: center;
+    color: #333;
+    background-color: #F1F5F9
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.logos {
+    margin-top: 1.5rem;
+}
+
+.logos img {
+    height: 3rem;
+    margin: 0 1rem 0.5rem;
+}
+
+/* Generic Styles End */
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
