@@ -1,0 +1,51 @@
+/* Generic Styles */
+
+body {
+    background-color: #F1F5F9;
+}
+
+header {
+    background-color: white;
+    padding: 0.8rem 1.4rem;
+    min-width: 767px;
+}
+
+.btn {
+    background-color: #0185d4;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 1.4rem;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Generic Styles End */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrap,
+.btn-wrap {
+    flex: 1;
+}
+
+.btn-wrap {
+    text-align: right;
+}
